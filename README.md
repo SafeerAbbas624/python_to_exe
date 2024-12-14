@@ -31,9 +31,34 @@ To install and run the Python to EXE Converter, follow these steps:
    ```bash
    python python_to_exe.py
    ```
+4. **Error OR exe not running**
+   After conversion you will find the exe file with same name of script in folder of script. If that conversion is not running try adding your script libraries in code with below variable.
+   ```bash
+   # Add specific imports that might be missed
+        additional_imports = [
+            'selenium',
+            'seleniumbase',
+            'selenium.webdriver',
+            'selenium.webdriver.common',
+            'selenium.webdriver.common.by',
+            'selenium.webdriver.common.keys',
+            'selenium.webdriver.support',
+            'selenium.webdriver.support.ui',
+            'selenium.webdriver.support.expected_conditions',
+            'selenium.webdriver.support.wait',
+            'openpyxl.styles',
+            'openpyxl',
+            'tkinter',
+            'math',
+            'csv',
+            'docx',
+
+        ]
+   ```
+   add your libraries here and there will be no error!!!
 
 ## Picture
-![Python to EXE Converter Screenshot](path/to/your/screenshot.png)
+![Python to EXE Converter Screenshot](https://github.com/SafeerAbbas624/python_to_exe/blob/main/python_to_exe.JPG)
 
 ## Contribution
 Contributions are welcome! If you would like to contribute to the project, please follow these steps:
